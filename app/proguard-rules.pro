@@ -1,0 +1,193 @@
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends androidx.appcompat.app.AppCompatActivity
+-keep public class * extends androidx.fragment.app.FragmentActivity
+-keep public class * extends androidx.activity.ComponentActivity
+-keep public class * extends androidx.fragment.app.Fragment
+-keep public class * extends androidx.fragment.app.FragmentManager
+-dontwarn com.sun.jersey.core.**
+#-------------------------------------------------------------------
+
+-keep class com.twinnet_analytics.event.** { *; }
+-keep class com.twinnet_analytics.** { *; }
+-keep class com.lib.adssdk.** { *; }
+
+-keepattributes Signature
+-keep class com.google.gson.** { *; }
+-keep class com.google.android.gms.internal.ads.** { *; }
+-keep class com.google.android.gms.ads.** { *; }
+
+
+# Please add these rules to your existing keep rules in order to suppress warnings.
+# This is generated automatically by the Android Gradle plugin.
+-dontwarn android.media.LoudnessCodecController$OnLoudnessCodecUpdateListener
+-dontwarn android.media.LoudnessCodecController
+-dontwarn com.facebook.infer.annotation.Nullsafe$Mode
+-dontwarn com.facebook.infer.annotation.Nullsafe
+
+
+# Please add these rules to your existing keep rules in order to suppress warnings.
+# This is generated automatically by the Android Gradle plugin.
+-dontwarn coil.compose.SingletonAsyncImageKt
+-dontwarn com.android.volley.Request
+-dontwarn com.android.volley.RequestQueue
+-dontwarn com.android.volley.Response$ErrorListener
+-dontwarn com.android.volley.Response$Listener
+-dontwarn com.android.volley.VolleyError
+-dontwarn com.android.volley.VolleyLog
+-dontwarn com.android.volley.toolbox.StringRequest
+-dontwarn com.android.volley.toolbox.Volley
+-dontwarn com.applovin.mediation.MaxAd
+-dontwarn com.applovin.mediation.MaxAdFormat
+-dontwarn com.applovin.mediation.MaxAdListener
+-dontwarn com.applovin.mediation.MaxAdRevenueListener
+-dontwarn com.applovin.mediation.MaxAdViewAdListener
+-dontwarn com.applovin.mediation.MaxError
+-dontwarn com.applovin.mediation.MaxReward
+-dontwarn com.applovin.mediation.MaxRewardedAdListener
+-dontwarn com.applovin.mediation.ads.MaxAdView
+-dontwarn com.applovin.mediation.ads.MaxAppOpenAd
+-dontwarn com.applovin.mediation.ads.MaxInterstitialAd
+-dontwarn com.applovin.mediation.ads.MaxRewardedAd
+-dontwarn com.applovin.mediation.nativeAds.MaxNativeAd
+-dontwarn com.applovin.mediation.nativeAds.MaxNativeAdListener
+-dontwarn com.applovin.mediation.nativeAds.MaxNativeAdLoader
+-dontwarn com.applovin.mediation.nativeAds.MaxNativeAdView
+-dontwarn com.applovin.mediation.nativeAds.MaxNativeAdViewBinder$Builder
+-dontwarn com.applovin.mediation.nativeAds.MaxNativeAdViewBinder
+-dontwarn com.applovin.sdk.AppLovinSdk$SdkInitializationListener
+-dontwarn com.applovin.sdk.AppLovinSdk
+-dontwarn com.applovin.sdk.AppLovinSdkConfiguration
+-dontwarn com.applovin.sdk.AppLovinSdkSettings
+-dontwarn com.applovin.sdk.AppLovinSdkUtils
+-dontwarn com.bumptech.glide.Glide
+-dontwarn com.bumptech.glide.RequestBuilder
+-dontwarn com.bumptech.glide.RequestManager
+-dontwarn com.bumptech.glide.request.target.SimpleTarget
+-dontwarn com.bumptech.glide.request.target.Target
+-dontwarn com.bumptech.glide.request.target.ViewTarget
+-dontwarn com.bumptech.glide.request.transition.Transition
+-dontwarn com.facebook.ads.AbstractAdListener
+-dontwarn com.facebook.ads.Ad
+-dontwarn com.facebook.ads.AdError
+-dontwarn com.facebook.ads.AdListener
+-dontwarn com.facebook.ads.AdOptionsView
+-dontwarn com.facebook.ads.AdSize
+-dontwarn com.facebook.ads.AdView$AdViewLoadConfig
+-dontwarn com.facebook.ads.AdView$AdViewLoadConfigBuilder
+-dontwarn com.facebook.ads.AdView
+-dontwarn com.facebook.ads.AudienceNetworkAds$InitListener
+-dontwarn com.facebook.ads.AudienceNetworkAds$InitResult
+-dontwarn com.facebook.ads.AudienceNetworkAds$InitSettingsBuilder
+-dontwarn com.facebook.ads.AudienceNetworkAds
+-dontwarn com.facebook.ads.InterstitialAd$InterstitialAdLoadConfigBuilder
+-dontwarn com.facebook.ads.InterstitialAd$InterstitialLoadAdConfig
+-dontwarn com.facebook.ads.InterstitialAd
+-dontwarn com.facebook.ads.InterstitialAdListener
+-dontwarn com.facebook.ads.MediaView
+-dontwarn com.facebook.ads.NativeAd
+-dontwarn com.facebook.ads.NativeAdBase$Image
+-dontwarn com.facebook.ads.NativeAdBase$NativeAdLoadConfigBuilder
+-dontwarn com.facebook.ads.NativeAdBase$NativeLoadAdConfig
+-dontwarn com.facebook.ads.NativeAdBase$Rating
+-dontwarn com.facebook.ads.NativeAdBase
+-dontwarn com.facebook.ads.NativeAdLayout
+-dontwarn com.facebook.ads.NativeAdListener
+-dontwarn com.facebook.ads.NativeAdView
+-dontwarn com.facebook.ads.NativeBannerAd
+-dontwarn com.facebook.ads.NativeBannerAdView$Type
+-dontwarn com.facebook.ads.NativeBannerAdView
+-dontwarn com.facebook.ads.RewardedVideoAd$RewardedVideoAdLoadConfigBuilder
+-dontwarn com.facebook.ads.RewardedVideoAd$RewardedVideoLoadAdConfig
+-dontwarn com.facebook.ads.RewardedVideoAd
+-dontwarn com.facebook.ads.RewardedVideoAdListener
+-dontwarn com.google.accompanist.drawablepainter.DrawablePainterKt
+-dontwarn com.google.ads.mediation.admob.AdMobAdapter
+-dontwarn com.google.android.exoplayer2.ExoPlayer$Builder
+-dontwarn com.google.android.exoplayer2.ExoPlayer
+-dontwarn com.google.android.exoplayer2.MediaItem
+-dontwarn com.google.android.exoplayer2.PlaybackException
+-dontwarn com.google.android.exoplayer2.Player$Listener
+-dontwarn com.google.android.exoplayer2.Player
+-dontwarn com.google.android.exoplayer2.ui.StyledPlayerView
+-dontwarn com.google.android.gms.ads.AbstractAdRequestBuilder
+-dontwarn com.google.android.gms.ads.AdError
+-dontwarn com.google.android.gms.ads.AdListener
+-dontwarn com.google.android.gms.ads.AdLoader$Builder
+-dontwarn com.google.android.gms.ads.AdLoader
+-dontwarn com.google.android.gms.ads.AdRequest$Builder
+-dontwarn com.google.android.gms.ads.AdRequest
+-dontwarn com.google.android.gms.ads.AdSize
+-dontwarn com.google.android.gms.ads.AdValue
+-dontwarn com.google.android.gms.ads.AdView
+-dontwarn com.google.android.gms.ads.FullScreenContentCallback
+-dontwarn com.google.android.gms.ads.LoadAdError
+-dontwarn com.google.android.gms.ads.MediaContent
+-dontwarn com.google.android.gms.ads.MobileAds
+-dontwarn com.google.android.gms.ads.OnPaidEventListener
+-dontwarn com.google.android.gms.ads.OnUserEarnedRewardListener
+-dontwarn com.google.android.gms.ads.ResponseInfo
+-dontwarn com.google.android.gms.ads.admanager.AdManagerAdRequest$Builder
+-dontwarn com.google.android.gms.ads.admanager.AdManagerAdRequest
+-dontwarn com.google.android.gms.ads.admanager.AdManagerAdView
+-dontwarn com.google.android.gms.ads.admanager.AdManagerInterstitialAd
+-dontwarn com.google.android.gms.ads.admanager.AdManagerInterstitialAdLoadCallback
+-dontwarn com.google.android.gms.ads.appopen.AppOpenAd$AppOpenAdLoadCallback
+-dontwarn com.google.android.gms.ads.appopen.AppOpenAd
+-dontwarn com.google.android.gms.ads.initialization.InitializationStatus
+-dontwarn com.google.android.gms.ads.initialization.OnInitializationCompleteListener
+-dontwarn com.google.android.gms.ads.interstitial.InterstitialAd
+-dontwarn com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
+-dontwarn com.google.android.gms.ads.nativead.MediaView
+-dontwarn com.google.android.gms.ads.nativead.NativeAd$Image
+-dontwarn com.google.android.gms.ads.nativead.NativeAd$OnNativeAdLoadedListener
+-dontwarn com.google.android.gms.ads.nativead.NativeAd
+-dontwarn com.google.android.gms.ads.nativead.NativeAdOptions$Builder
+-dontwarn com.google.android.gms.ads.nativead.NativeAdOptions
+-dontwarn com.google.android.gms.ads.nativead.NativeAdView
+-dontwarn com.google.android.gms.ads.rewarded.RewardItem
+-dontwarn com.google.android.gms.ads.rewarded.RewardedAd
+-dontwarn com.google.android.gms.ads.rewarded.RewardedAdLoadCallback
+-dontwarn com.google.android.play.core.appupdate.AppUpdateInfo
+-dontwarn com.google.android.play.core.appupdate.AppUpdateManager
+-dontwarn com.google.android.play.core.appupdate.AppUpdateManagerFactory
+-dontwarn com.google.android.play.core.install.InstallState
+-dontwarn com.google.android.play.core.install.InstallStateUpdatedListener
+-dontwarn com.google.android.play.core.review.ReviewException
+-dontwarn com.google.android.play.core.review.ReviewInfo
+-dontwarn com.google.android.play.core.review.ReviewManager
+-dontwarn com.google.android.play.core.review.ReviewManagerFactory
+-dontwarn com.google.android.ump.ConsentForm$OnConsentFormDismissedListener
+-dontwarn com.google.android.ump.ConsentInformation$OnConsentInfoUpdateFailureListener
+-dontwarn com.google.android.ump.ConsentInformation$OnConsentInfoUpdateSuccessListener
+-dontwarn com.google.android.ump.ConsentInformation
+-dontwarn com.google.android.ump.ConsentRequestParameters$Builder
+-dontwarn com.google.android.ump.ConsentRequestParameters
+-dontwarn com.google.android.ump.FormError
+-dontwarn com.google.android.ump.UserMessagingPlatform
+-dontwarn com.google.firebase.analytics.FirebaseAnalytics
+-dontwarn com.google.firebase.remoteconfig.ConfigUpdate
+-dontwarn com.google.firebase.remoteconfig.ConfigUpdateListener
+-dontwarn com.google.firebase.remoteconfig.ConfigUpdateListenerRegistration
+-dontwarn com.google.firebase.remoteconfig.FirebaseRemoteConfig
+-dontwarn com.google.firebase.remoteconfig.FirebaseRemoteConfigException
+-dontwarn com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings$Builder
+-dontwarn com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings
+-dontwarn com.google.gson.Gson
+-dontwarn com.google.gson.reflect.TypeToken
+-dontwarn com.twinnet_analytics.event.Analytics$Companion
+-dontwarn com.twinnet_analytics.event.Analytics
+-dontwarn com.twinnet_analytics.myenum.AdsAction
+-dontwarn com.twinnet_analytics.myenum.AdsCompany
+-dontwarn com.twinnet_analytics.myenum.AdsType
+-dontwarn com.twinnet_analytics.utils.SPManager
+-dontwarn okhttp3.Call
+-dontwarn okhttp3.OkHttpClient
+-dontwarn okhttp3.Request$Builder
+-dontwarn okhttp3.Request
+-dontwarn okhttp3.Response
+-dontwarn okhttp3.ResponseBody
+

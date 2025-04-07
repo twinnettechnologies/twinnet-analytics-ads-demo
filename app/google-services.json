@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "178577944905",
+    "project_id": "twinnet-analytics-demo",
+    "storage_bucket": "twinnet-analytics-demo.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178577944905:android:7930631398842fe70c2a98",
+        "android_client_info": {
+          "package_name": "com.twinnet.analytics.ads.demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAk5Gwgto2k0351xRtHqRyZ0xpD4PLFtw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
